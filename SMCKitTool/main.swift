@@ -162,10 +162,10 @@ func printTemperatureInformation(known: Bool = true) {
     }
 
 
-    let sensorWithLongestName = sensors.max { $0.name.characters.count <
-                                                     $1.name.characters.count }
+    let sensorWithLongestName = sensors.max { $0.name.count <
+                                                     $1.name.count }
 
-    guard let longestSensorNameCount = sensorWithLongestName?.name.characters.count else {
+    guard let longestSensorNameCount = sensorWithLongestName?.name.count else {
         print("No temperature sensors found")
         return
     }
@@ -173,7 +173,7 @@ func printTemperatureInformation(known: Bool = true) {
 
     for sensor in sensors {
         let padding = String(repeating: " ",
-                             count: longestSensorNameCount - sensor.name.characters.count)
+                             count: longestSensorNameCount - sensor.name.count)
 
         let smcKey  = CLIDisplayKeysOption.wasSet ? "(\(sensor.code.toString()))" : ""
         print("\(sensor.name + padding)   \(smcKey)  ", terminator: "")
@@ -265,7 +265,7 @@ func printAll() {
 }
 
 func checkKey(key: String) {
-    if key.characters.count != 4 {
+    if key.count != 4 {
         print("Must be a FourCC (four-character code)")
         return
     }
