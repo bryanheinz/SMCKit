@@ -17,7 +17,7 @@
                BlueprintIdentifier = "4CDDA69C1AEC0D010037CE7B"
                BuildableName = "powermetricsTests"
                BlueprintName = "powermetricsTests"
-               ReferencedContainer = "container:smctool.xcodeproj">
+               ReferencedContainer = "container:smcutil.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,7 +33,7 @@
             BlueprintIdentifier = "4CDDA69C1AEC0D010037CE7B"
             BuildableName = "powermetricsTests"
             BlueprintName = "powermetricsTests"
-            ReferencedContainer = "container:smctool.xcodeproj">
+            ReferencedContainer = "container:smcutil.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <Testables>
@@ -57,7 +57,7 @@
             BlueprintIdentifier = "4CDDA69C1AEC0D010037CE7B"
             BuildableName = "powermetricsTests"
             BlueprintName = "powermetricsTests"
-            ReferencedContainer = "container:smctool.xcodeproj">
+            ReferencedContainer = "container:smcutil.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -74,7 +74,7 @@
             BlueprintIdentifier = "4CDDA69C1AEC0D010037CE7B"
             BuildableName = "powermetricsTests"
             BlueprintName = "powermetricsTests"
-            ReferencedContainer = "container:smctool.xcodeproj">
+            ReferencedContainer = "container:smcutil.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
